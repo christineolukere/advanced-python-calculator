@@ -1,0 +1,31 @@
+[MASTER]
+load-plugins=
+ignore=CVS
+ignore-patterns=
+
+[MESSAGES CONTROL]
+disable=C0330,C0326
+
+[REPORTS]
+output-format=text
+reports=no
+score=yes
+
+[REFACTORING]
+max-nested-blocks=5
+
+[BASIC]
+good-names=i,j,k,ex,Run,_
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[VARIABLES]
+dummy-variables-rgx=_+$|(_[a-zA-Z0-9_]*[a-zA-Z0-9]+?$)|dummy|^ignored_|^unused_
+
+[SIMILARITIES]
+min-similarity-lines=4
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=no
